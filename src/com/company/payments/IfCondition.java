@@ -22,6 +22,6 @@ public class IfCondition {
 
 
         /*-------------------------Write a java program to find even or odd by if else-----------------*/
-
+        System.out.println("bala krishna");
     }
 }
