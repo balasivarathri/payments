@@ -65,16 +65,40 @@ public class Loops {
         System.out.print("Reverse string is: "+sbf);*/
 
         /*.........Write a java program to print multiplication table...........*/
-        System.out.print("please enter a table which you want to print: ");
+        /*System.out.print("please enter a table which you want to print: ");
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
-       /* int i=1;
+       *//* int i=1;
         while(i<=10){
             System.out.println(number + " * " + i + " = " + number*i);
             i++;
-        }*/
+        }*//*
         for (int j = 1; j <= 10; j++) {
             System.out.println(number + " * " + j + " = " + number*j);
+        }*/
+
+        /*.........Write a java program to calculate all maths operations by using if else ...........*/
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Please enter numbers for calculation: ");
+        double d1 = sc.nextDouble();
+        char op = sc.next().charAt(0);
+        //System.out.println("Please enter second number: ");
+        double d2 = sc.nextDouble();
+
+        if(op == '+'){
+            System.out.println("Addition of two number are: " + (int)(d1+d2));
+        }
+        else if(op == '-'){
+            System.out.println("Subsctraction of two number are: " + (int)(d1-d2));
+        }
+        else if(op == '/'){
+            System.out.println("Division of two number are: " + (d1/d2));
+        }
+        else if(op == '*'){
+            System.out.println("Multiplication of two number are: " + (int)(d1*d2));
+        }
+        else{
+            System.out.println("no calculation required");
         }
     }
 
