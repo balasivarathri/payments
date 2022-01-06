@@ -19,6 +19,7 @@ public class IfCondition {
         } else {
             System.out.println("Odd Number");
         }*/
+        System.out.println("teting");
 
         /*-------------------------Write a java program to find even or odd by if else-----------------*/
     }
