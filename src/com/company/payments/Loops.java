@@ -64,21 +64,23 @@ public class Loops {
         sbf.reverse();
         System.out.print("Reverse string is: "+sbf);*/
 
-        /*.........Write a java program to print multiplication table...........*/
-        /*System.out.print("please enter a table which you want to print: ");
+        //.........Write a java program to print multiplication table...........
+
         Scanner sc = new Scanner(System.in);
+        System.out.println("Please Enter a Number: ");
         int number = sc.nextInt();
-       *//* int i=1;
-        while(i<=10){
-            System.out.println(number + " * " + i + " = " + number*i);
-            i++;
-        }*//*
-        for (int j = 1; j <= 10; j++) {
-            System.out.println(number + " * " + j + " = " + number*j);
+       /* for (int i = 1; i <= 10; i++) {
+            System.out.println(number + " X " + i + " = " + number * i);
         }*/
+        //By using while loop
+        int j=1;
+        while(j<=10){
+            System.out.println(number + " X " + j + " = " + number * j);
+            j++;
+        }
 
         /*.........Write a java program to calculate all maths operations by using if else ...........*/
-        Scanner sc = new Scanner(System.in);
+/*        Scanner sc = new Scanner(System.in);
         System.out.print("Please enter numbers for calculation: ");
         double d1 = sc.nextDouble();
         char op = sc.next().charAt(0);
@@ -99,7 +101,7 @@ public class Loops {
         }
         else{
             System.out.println("no calculation required");
-        }
+        }*/
     }
 
 }
