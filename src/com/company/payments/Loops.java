@@ -78,6 +78,7 @@ public class Loops {
             System.out.println(number + " X " + j + " = " + number * j);
             j++;
         }
+        System.out.println("done");
 
         /*.........Write a java program to calculate all maths operations by using if else ...........*/
 /*        Scanner sc = new Scanner(System.in);
