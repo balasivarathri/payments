@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Switch {
     public static void main(String[] args) {
         /*.........Write a java program to print a value by using switch statement...........*/
-        int number = 90;
+        /*int number = 90;
         switch (number) {
             case 10:
                 System.out.println("= 10");
@@ -18,7 +18,7 @@ public class Switch {
                 break;
             default:
                 System.out.println("None of the above");
-        }
+        }*/
         /*.........Write a java program to print a value by using switch statement...........*/
         /*Scanner sc = new Scanner(System.in);
         System.out.print("Please enter a number: ");
@@ -31,5 +31,6 @@ public class Switch {
                 System.out.println("Odd number");
                 break;
         }*/
+
     }
 }

@@ -8,7 +8,7 @@ public class IfCondition {
         /*-------------------------Write a java program to find even or odd by if else-----------------*/
        /* Scanner sc = new Scanner(System.in);
         System.out.print("Please Enter A Number: ");
-        int n = sc.nextInt();
+        int n = sc.l.nextInt();
         if (n % 2 == 0)
             System.out.println("Even Number");
         if (!(n % 2 == 0))
@@ -20,8 +20,5 @@ public class IfCondition {
             System.out.println("Odd Number");
         }*/
 
-
-        /*-------------------------Write a java program to find even or odd by if else-----------------*/
-        System.out.println("bala krishna");
     }
 }
